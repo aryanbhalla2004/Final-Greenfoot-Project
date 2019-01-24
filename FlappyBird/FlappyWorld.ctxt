@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=FlappyWorld
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ FlappyWorld\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=FlappyWorld()
+comment1.text=\r\n\ FlappyWorld\ is\ a\ Constructor\ that\ is\ adding\ ground,\ logo,\ rest\ button,\ score\ text\ on\ the\ top\ left,\ and\ flappy\ bird\ in\ the\ world.\r\n\ \r\n\ @param\ There\ are\ no\ parameters\r\n\ @return\ Nothing\ is\ returned\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ act\ is\ a\ method\ that\ adding\ random\ cloud\ in\ the\ world\ and\ also\ checking\ if\ the\ flappy\ bird\ lost\ and\ if\ that\ is\ true\ it\ will...\r\n\ change\ the\ world\ to\ game\ over\ screen\r\n\ \r\n\ @param\ There\ are\ no\ parameters\r\n\ @return\ Nothing\ is\ returned\r\n
+comment3.params=
+comment3.target=void\ randomCloud()
+comment3.text=\r\n\ randomCloud\ is\ a\ method\ that\ is\ adding\ cloud\ in\ the\ world.\r\n\ \r\n\ @param\ There\ are\ no\ parameters\r\n\ @return\ Nothing\ is\ returned\r\n
+numComments=4

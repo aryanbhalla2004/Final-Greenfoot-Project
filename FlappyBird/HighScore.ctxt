@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=HighScore
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ HighScore\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ act\ is\ a\ method\ that\ is\ setting\ the\ text\ in\ the\ box\ that\ says\ "Your\ Score\:\ ",\ "High\ Score\:\ "\ and\ also\ making\ the\ box\ move\ up\r\n\ \r\n\ @param\ There\ are\ no\ parameters\r\n\ @return\ Nothing\ is\ returned\r\n
+comment2.params=inputScore
+comment2.target=HighScore(int)
+comment2.text=\r\n\ HighScore\ is\ a\ method\ that\ is\ scaling\ the\ box\ to\ 330x220\ and\ it\ get\ the\ high\ score\ to\ display\ and\ also\ saying\ the\ high\ in\ the\ text\ file..\r\n\ also\ playing\ a\ sound\r\n\ \r\n\ @param\ there\ is\ 1\ paramter\ that\ is\ int\ inputScore\ that\ the\ inputing\ the\ score\ at\ beside\ the\ high\ score\r\n\ @return\ Nothing\ is\ returned\r\n
+comment3.params=
+comment3.target=void\ getHighScore()
+comment3.text=\r\n\ getHighScore\ is\ a\ method\ that\ is\ reading\ the\ high\ score\ for\ the\ file\ score.txt\ and\ displaying\ it\ beside\ high\ score\r\n\ \r\n\ @param\ There\ are\ no\ parameters\r\n\ @return\ Nothing\ is\ returned\r\n
+comment4.params=
+comment4.target=void\ saveHighScore()
+comment4.text=\r\n\ saveHighScore\ is\ a\ method\ that\ is\ saving\ the\ high\ score\ in\ the\ text\ called\ "score.txt"\ in\ as\ integer\r\n\ \r\n\ @param\ There\ are\ no\ parameters\r\n\ @return\ Nothing\ is\ returned\r\n
+numComments=5

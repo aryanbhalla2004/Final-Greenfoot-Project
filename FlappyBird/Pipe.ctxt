@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Pipe
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Pipe\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=Pipe()
+comment1.text=\r\n\ pipe\ is\ Constructor\ that\ is\ scaling\ the\ image\ smaller\ randomley\r\n\ \r\n\ @param\ There\ are\ no\ parameters\r\n\ @return\ Nothing\ is\ returned\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ Pipe\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment3.params=
+comment3.target=void\ atEdge()
+comment3.text=\r\n\ atEdge\ is\ a\ method\ that\ is\ checking\ if\ the\ pipe\ is\ at\ the\ edge\ if\ it\ is\ then\ it\ will\ remove\ it\r\n\ \r\n\ @param\ There\ are\ no\ parameters\r\n\ @return\ Nothing\ is\ returned\r\n
+comment4.params=
+comment4.target=void\ hitTrap()
+comment4.text=\r\n\ hitTrap\ is\ a\ method\ that\ is\ checking\ if\ the\ flappy\ bird\ is\ touching\ the\ pipe.\ if\ it\ is\ it\ will\ play\ a\ sound\ over\ and\ show\ the\ game\ over..\r\n\ logo\ and\ set\ delay\ (200)\ and\ remove\ the\ bird\ from\ the\ world\r\n\ \r\n\ @param\ There\ are\ no\ parameters\r\n\ @return\ Nothing\ is\ returned\r\n
+comment5.params=
+comment5.target=void\ updateScore()
+comment5.text=\r\n\ updateScore\ is\ a\ method\ that\ is\ detecting\ the\ score\ if\ it\ is\ true\ then\ it\ will\ add\ 1\ into\ to\ score\ \r\n\ \r\n\ @param\ There\ are\ no\ parameters\r\n\ @return\ Nothing\ is\ returned\r\n
+numComments=6

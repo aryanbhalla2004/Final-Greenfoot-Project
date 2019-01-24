@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=FlappyBird
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ FlappyBird\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ act\ is\ a\ method\ that\ is\ checking\ to\ detectScore,\ checkkey\ and\ also\ using\ and\ array\ you\ switch\ between\ images\ to\ make\ that\ charater..\r\n\ look\ like\ it\ is\ walking\r\n\ \r\n\ @param\ There\ are\ no\ parameters\r\n\ @return\ Nothing\ is\ returned\r\n
+comment2.params=
+comment2.target=void\ checkKey()
+comment2.text=\r\n\ checkKey\ is\ a\ method\ that\ is\ checking\ if\ the\ spacebar\ or\ mouseclick\ if\ it\ is\ it\ will\ making\ the\ charater\ jump\ and\ also\ play\ a\ jumo\ sound\r\n\ \r\n\ @param\ There\ are\ no\ parameters\r\n\ @return\ Nothing\ is\ returned\r\n
+comment3.params=
+comment3.target=FlappyBird()
+comment3.text=\r\n\ Flappy\ Bird\ is\ a\ Constructor\ that\ is\ scaling\ the\ img\ of\ the\ array\ to\ 45\ x\ 45\r\n\ \r\n\ @param\ There\ are\ no\ parameters\r\n\ @return\ Nothing\ is\ returned\r\n
+comment4.params=
+comment4.target=void\ detectScore()
+comment4.text=\r\n\ detectScore\ is\ a\ method\ that\ is\ detecting\ score\ by\ check\ around\ the\ flappy\ bird.\ \r\n\ if\ the\ flappy\ is\ above\ the\ pipe\ it\ will\ give\ flappy\ bird\ 1\ score\r\n\ \r\n\ @param\ There\ are\ no\ parameters\r\n\ @return\ Nothing\ is\ returned\r\n
+numComments=5

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Reset
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Reset\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ act\ is\ a\ method\ that\ is\ check\ if\ the\ mouse\ clicked\ is\ true\ on\ the\ reset\ button\ if\ it\ is\ true\ then\ it\ will\ reset\ the\ world...\r\n\ to\ flappyWorld\r\n
+comment2.params=
+comment2.target=Reset()
+comment2.text=\r\n\ reset\ is\ a\ Constructor\ that\ scaling\ the\ image\ to\ 52\ x\ 35\r\n\ \r\n\ @param\ There\ are\ no\ parameters\r\n\ @return\ Nothing\ is\ returned\r\n
+numComments=3

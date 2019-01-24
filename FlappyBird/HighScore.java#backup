@@ -1,0 +1,58 @@
+import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+import java.io.*;
+/**
+ * Write a description of class HighScore here.
+ * 
+ * @author (your name) 
+ * @version (a version number or a date)
+ */
+public class HighScore extends Actor
+{
+    private int score;
+    private int highScore;
+    /**
+     * Act - do whatever the HighScore wants to do. This method is called whenever
+     * the 'Act' or 'Run' button gets pressed in the environment.
+     */
+    public void act() 
+    {
+       setLocation(getX(), getY() -1);
+       
+        if(getY() <= 250)
+        {
+            setLocation(getX(), 250);
+        }
+    } 
+    public HighScore(int inputScore)
+    {
+        score = inputScore;
+        getImage().scale(330, 220);
+        GreenfootImage newImage = getImage();
+        GreenfootImage newTitle = getImage();
+        newImage.setFont(new Font("Helvetica", 20));
+        newTitle.setFont(new Font("Helvetica", 30));
+        newImage.drawString("Your Score: " + score ,80,130);
+        newTitle.drawString("Best Score: " + score ,80,80);
+        setImage(newImage);
+        setImage(newTitle);
+        Greenfoot.playSound("gameover.mp3");
+    }
+    /**
+     * Austin help me in the method for kepping the high score
+     */
+    private void getHighScore()
+    {
+       FileInputStream fis;
+       BufferedReader r = null;
+       try{e
+           fis = new FileInputStream("HighScore.txt");
+           r = new BufferedReader(new InputStreamReader(fis));
+           highScore = Int.parseInt(r.readLine());
+       }
+       catch( FileNotFoundException e1)
+       {
+           e1.printStackTrace();
+       }
+    }
+    
+}
